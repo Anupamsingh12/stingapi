@@ -26,7 +26,7 @@ SECRET_KEY = 'yfv)b_v!!!5xcrp42-ih#+=*g0#!h7o-*#fnz!*b8nkitmm=%y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [''stingapi.herokuapp.com']
+ALLOWED_HOSTS = ['stingapi.herokuapp.com']
 
 
 # Application definition
