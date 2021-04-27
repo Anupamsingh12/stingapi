@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'yfv)b_v!!!5xcrp42-ih#+=*g0#!h7o-*#fnz!*b8nkitmm=%y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [''stingapi.herokuapp.com']
 
 
 # Application definition
