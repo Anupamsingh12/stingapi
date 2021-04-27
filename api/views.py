@@ -32,7 +32,7 @@ st={ "age": "12","gender": "0",
 @csrf_exempt
 def cardio_risk(request):
     if request.method == 'POST':
-        filename='ml_models/finalized_model2.sav'  
+        filename='api/finalized_model2.sav'  
         loaded_model = pickle.load(open(filename, 'rb'))
         p=JSONParser().parse(request)
         p=p.data
@@ -56,7 +56,7 @@ def cardio_risk(request):
 def cardiorisk(request):
    
     if request.method == 'POST':
-        filename='ml_models/finalized_model2.sav'  
+        filename='api/finalized_model2.sav'  
         loaded_model = pickle.load(open(filename, 'rb'))
         p=JSONParser().parse(request)
         
